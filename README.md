@@ -18,8 +18,28 @@ This plugin allows you to play animated GIFs on specified events in RPG Maker MZ
 
 ## Plugin Commands
 
-- `PlayGif`
-- `StopGif`
+### Play GIF
+
+- Command: `PlayGif`
+- Description: Plays a GIF animation on the specified event.
+
+Arguments:
+
+- `eventId` (Event ID) - type: number: The ID of the event to play the GIF on.
+- `gifName` (GIF Name) - type: text: The name of the GIF file (without the .gif extension) to play.
+- `loop` (Loop) - type: boolean; default: true: Whether the GIF should loop.
+- `transparency` (Transparency) - type: number; default: 255: Transparency of the GIF (0 to 255, where 0 is fully transparent and 255 is fully opaque).
+- `zoom` (Zoom) - type: number; default: 1: Zoom level for the GIF (e.g., 2 for 2x magnification).
+- `zIndex` (Z-Index) - type: number; default: 1: Z-Index for the GIF (higher values are on top, 0 is behind the player).
+
+### Stop GIF
+
+- Command: `StopGif`
+- Description: Stops the GIF animation on the specified event.
+
+Arguments:
+
+- `eventId` (Event ID) - type: number: The ID of the event to stop the GIF on.
 
 ## Installation
 
