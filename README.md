@@ -1,14 +1,20 @@
 # PSYCHRONIC_GifAnimationMZ
 
-v2.0 - Plays animated GIFs on specified events with optional zoom and z-index (MZ).
+Plays animated GIFs on specified events with optional zoom and z-index (MZ).
 
-## What This Is
+## What It Does
 
-This repository contains a standalone **RPG Maker MZ plugin** from Psychronic.
+This plugin allows you to play animated GIFs on specified events in RPG Maker MZ. You can control whether the GIF should loop or not, set the transparency level, specify a zoom level, and control the z-index.
 
-## Plugin File
+## Plugin Commands
 
-- `PSYCHRONIC_GifAnimationMZ.js`
+- PlayGif
+- StopGif
+
+## Compatibility
+
+- RPG Maker MZ
+- JavaScript plugin for `js/plugins/`
 
 ## Installation
 
@@ -20,11 +26,11 @@ This repository contains a standalone **RPG Maker MZ plugin** from Psychronic.
 
 This version was exported from the RPG Reactor Complex template source plugin folder.
 
-Current source version: 2.0
-
 ## Author
 
 Psychronic
+
+https://psychronic.itch.io
 
 ## License
 
